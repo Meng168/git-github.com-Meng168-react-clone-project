@@ -1,0 +1,105 @@
+@media(max-width: 1010px) {
+    .bg-header {
+        display: none;
+    }
+    .navbar__menu{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar__logo{
+        padding-left: 60px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .navbar__icons .MuiSvgIcon-root{
+        font-size: 20px!important;
+    }
+    .navbar__icons-menu:nth-of-type(2){
+        display: none;
+    }
+    .coupon-row{
+        max-width: 100%!important;
+    }
+}
+/* ========== */
+/*Extra large devices (large desktop, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*large devices (desktop, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* md bar */
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer__copyright {
+        justify-content: center
+    }
+    .custom-dialog {
+        margin: auto!important;
+    }
+    .btn-frm {
+        padding: 10px 25px !important;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slide__left {
+        min-height: 390px;
+        margin-bottom: 15px;
+    }
+    .razzi-slide-title h2 {
+        font-size: 34px;
+    }
+    .razzi-slide-heading-right h2 {
+        font-size: 22px;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__copyright {
+        justify-content: center
+    }
+    .custom-dialog {
+        margin: auto!important;
+    }
+    .btn-frm {
+        padding: 10px 25px !important;
+    }
+}
+
+/*Extra small devices (portrait phones, less and 576px)*/
+@media (max-width: 575.98px) {
+    .slide__left {
+        min-height: 390px;
+    }
+    .razzi-slide-title h2{
+        font-size: 34px;
+    }
+    .razzi-slide-heading-right h2 {
+        font-size: 22px;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer__copyright{
+        justify-content: center
+    }
+    .custom-dialog {
+        margin: auto !important;
+    }
+    .btn-frm{
+        padding: 10px 25px!important;
+    }
+}

@@ -1,0 +1,25 @@
+.tool__tip {
+    display: flex;
+    gap: 0 5px;
+    margin: 20px 0 30px 0;
+    align-items: center;
+}
+.tool__tip a{
+    color: var(--rz-text-color-gray);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.tool__tip a:hover{
+    color: var(--black);
+}
+.tool__tip-item{
+    color: var(--rz-text-color-gray);
+    font-size: 14px;
+}
+.tool__tip .MuiSvgIcon-root{
+    font-size: 21px;
+    color: var(--rz-text-color-gray);
+}

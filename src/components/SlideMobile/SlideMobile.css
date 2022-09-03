@@ -1,0 +1,173 @@
+/* .slide__mobile-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+/* .slide__mobile{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 440px;
+    background: var(--white);
+    padding: 18px 28px;
+} */
+.slide__mobile-menu-scroll {
+    height: 560px;
+    overflow-y: auto;
+}
+/* chrome, safari and opera */
+.slide__mobile-menu-scroll::-webkit-scrollbar {
+    display: none;
+}
+/* ie, edge and firefox */
+.slide__mobile-menu-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.slide__mobile-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.slide__mobile-logo{
+    text-align: center;
+}
+.slide__mobile-logo h1{
+    color: var(--rz-color-dark);
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.slide__mobile-close{
+    position: absolute;
+    right: 25px;
+    top: 22px;
+}
+.slide__mobile-close .MuiSvgIcon-root {
+    color: var(--grey) !important;
+    cursor: pointer;
+}
+.slide__mobile-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transform-origin: left top;
+}
+.slide__mobile-item {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transform-origin: left top;
+}
+.slide__mobile-item:target {
+    transform: scaleY(1);
+}
+.slide__mobile-item:hover{
+    cursor: pointer;
+    color: var(--rz-color-hover-primary);
+}
+.slide__mobile-item:hover a{
+    color: var(--rz-color-hover-primary);
+}
+.slide__mobile-link a{
+    font-size: 25px;
+    display: block;
+    font-weight: 500;
+    color: var(--rz-color-dark);
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.slide__mobile-buyOn{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
+.slide__mobile-buyOn button{
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #0072bc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-weight: 600;
+    z-index: 99999;
+    border: none;
+}
+.slide__mobile-socialLink{
+    margin-bottom: 25px;
+}
+.slide__mobile-socialLink{
+    display: flex;
+    gap: 0 15px;
+}
+.slide__mobile-icon a{
+    font-weight: 500;
+    color: var(--rz-color-dark);
+}
+.slide__mobile-icon a .MuiSvgIcon-root{
+    font-size: 18px;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.slide__mobile-icon a .MuiSvgIcon-root:hover{
+    opacity: 1;
+}
+.slide__mobile-submenu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.slide__mobile-submenu-link {
+    padding: 0px 8px 12px 8px;
+}
+.slide__mobile-submenu-subSubmenu-link {
+    padding: 0px 8px 12px 18px;
+}
+.slide__mobile-submenu-link a{
+    display: block;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--rz-color-dark);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.slide__mobile-submenu-item:hover,
+.slide__mobile-submenu-item:hover .slide__mobile-submenu-link a {
+    cursor: pointer;
+    color: var(--rz-color-hover-primary);
+}

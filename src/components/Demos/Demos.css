@@ -1,0 +1,21 @@
+.demos{
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background-color: var(--rz-background-color-dark);
+    color: white;
+    padding: 12px 9px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.demos:hover{
+    cursor: pointer;
+    background-color: var(--black);
+}

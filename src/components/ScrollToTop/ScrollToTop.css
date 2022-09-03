@@ -1,0 +1,25 @@
+.ScrollButton {
+    z-index: 999;
+}
+
+.ScrollButton:active,
+.ScrollButton:focus {
+    border: none !important;
+    outline: none !important;
+    border-style: none !important;
+    box-shadow: none !important;
+}
+
+.ScrollButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: var(--rz-background-color-dark) !important;
+    border: none !important;
+    padding: 7.5px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

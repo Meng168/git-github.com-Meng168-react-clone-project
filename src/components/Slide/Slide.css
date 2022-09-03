@@ -1,0 +1,160 @@
+.slide__img-right{
+    /* height: calc(248px); */
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+    -ms-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+}
+.slide__right-items {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+.slide__right-items:hover img {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+.slick-slide-inner{
+    position: relative;
+}
+.slide__left {
+    height: 350px;
+    min-height: 490px;
+    max-height: 380px;
+    /* our nice transition */
+}
+.slide__img-left {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slide__right-items {
+    height: 235px;
+}
+.razzi-slide-content{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    padding: 0 10px;
+}
+.razzi-slide-title {
+    max-width: 320px;
+    padding: 20px 30px 0 0;
+}
+.razzi-slide-heading h5,
+.razzi-slide-heading h6{
+    text-align: center;
+    color: var(--white);
+}
+.razzi-slide-heading h6{
+    font-size: 16px;
+}
+.razzi-slide-heading h5{
+    font-size: 18px;
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.razzi-slide-heading h5::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: var(--white);
+}
+.razzi-slide-heading h2 {
+    line-height: 1.45455;
+    color: var(--rz-color-dark);
+    margin-bottom: 19px;
+    display: inline-block;
+}
+.razzi-slide-title h2 {
+    font-size: 44px;
+}
+.razzi-slide-heading-right{
+    top: 30%;
+}
+.razzi-slide-heading-right h2{
+    color: var(--white);
+    line-height: 1.45;
+    font-size: 23px;
+    z-index: 1;
+}
+.razzi-slide-content a{
+    font-weight: 500;
+    font-size: 17.5px;
+    line-height: 50px;
+    display: inline-block;
+    color: var(--rz-color-lighter);
+    text-align: center;
+    transition: ease .3s;
+    white-space: nowrap;
+}
+.razzi-slide-content a .MuiSvgIcon-root{
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.razzi-slide-content a:hover .MuiSvgIcon-root{
+    transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -o-transform: translateX(4px);
+}
+.razzi-slide-button{
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0 25px;
+}
+.razzi-slide-button button{
+    padding: 5px;
+    border: 1px solid #868789;
+    background: transparent;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.razzi-slide-button button .MuiSvgIcon-root{
+    color: #868789;
+}
+.razzi-slide-button button:hover .MuiSvgIcon-root{
+    color: #000;
+}
+.razzi-slide-button button:hover{
+    border: 1px solid black;
+}

@@ -1,0 +1,65 @@
+.form-control {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    border: none!important;
+    margin-bottom: 30px;
+}
+.form-control>textarea,
+.form-control>input{
+    width: 100%;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+    resize: none;
+}
+.send__message{
+    background: var(--rz-color-dark);
+    color: var(--white);
+    border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -ms-border-radius: 0!important;
+    -o-border-radius: 0!important;
+    padding: 10px 38px;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.elementor-content{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #E2E2E2;
+    margin-bottom: 20px;
+}
+.elementor-content__title{
+    display: flex;
+}
+.elementor-content__title span{
+    padding-right: 10px;
+}
+.elementor-content__title span .MuiSvgIcon-root{
+    color: #FF8175;
+}
+.elementor-content__title h3{
+    font-size: 23px;
+}
+.elementor-content__title p {
+    font-size: 18px;
+    color: #525252;
+    margin: 25px 0;
+    line-height: 1.2;
+}
+.elementor-widget-text-editor{
+    margin: 20px 0;
+    line-height: 0.2;
+}
+.elementor-widget-text-editor h6{
+    font-size: 18px;
+}
+.elementor-widget-text-editor{
+    line-height: 1.2;
+}
+.elementor-widget-text-editor p{
+    font-size: 18px;
+    color: #525252;
+}

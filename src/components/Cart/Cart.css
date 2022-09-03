@@ -1,0 +1,162 @@
+.cart{
+    background: #F5F5F5;
+    padding: 10px;
+}
+.cart-collaterals{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+.woocommerce-shipping-totals{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    padding-bottom: 20px;
+}
+.woocommerce-shipping-totals span a{
+    color: var(--black);
+    text-decoration: underline;
+}
+.select-box-input input{
+    width: 100%;
+    padding: 8px 5px;
+}
+.btn-update>button{
+    padding: 9px 35px;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--rz-background-color-dark);
+}
+.total{
+    margin-top: 20px;
+}
+.total strong{
+    font-size: 19px;
+}
+.checkout{
+    margin-top: 18px;
+    width: 100%;
+}
+.checkout>button{
+    width: 100%;
+    padding: 9px 35px;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--rz-background-color-dark);
+}
+.continue__shopping{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.continue__shopping a{
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 500;
+}
+.continue__shopping .MuiSvgIcon-root {
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.continue__shopping:hover .MuiSvgIcon-root {
+    transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -o-transform: translateX(-4px);
+}
+.cart-img{
+    width: 160px;
+    height: 160px;
+    object-fit: fill;
+}
+.razzi-qty-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80px;
+    padding: 5px;
+    border: 1px solid var(--grey);
+    margin-top: 15px;
+}
+.razzi-qty-button button{
+    padding: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    background: transparent;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.razzi-qty-button button:hover{
+    background: #cdcdcd;
+}
+.razzi-qty-button button .MuiSvgIcon-root{
+    font-size: 14px;
+}
+.razzi-remvoe-button{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.razzi-remvoe-button button{
+    border: none;
+    overflow: unset;
+    background: transparent;
+    color: #919191;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.razzi-remvoe-button button .MuiSvgIcon-root{
+    font-size: 14px;
+}
+.razzi-remvoe-button button:hover{
+    color: var(--black);
+}
+.coupon{
+    margin: 25px 0;
+}
+.coupon label{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.coupon-row{
+    /* width: 100%;
+    min-width: 320px; */
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coupon-row input{
+    padding: 6.5px 5px;
+    width: 100%;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+.coupon-row button{
+    padding: 8.5px 35px;
+    color: var(--white);
+    border: none;
+    background: var(--rz-background-color-dark);
+}

@@ -1,0 +1,50 @@
+.razzi-newsletter{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 310px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1454944338482-a69bb95894af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.razzi-newsletter-2__heading{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    line-height: 3.8;
+}
+.razzi-newsletter-2__heading h3{
+    font-size: 31px;
+}
+.razzi-newsletter-2__heading .newsletter-desc{
+    font-size: 16.5px;
+    color: var(--rz-text-color-gray);
+}
+.form-fields{
+    margin-top: 20px;
+    max-width: 480px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    box-sizing: border-box;
+}
+.form-fields input[type=text]{
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    outline: none;
+    border: none;
+}
+.form-fields button{
+    border: none;
+    height: 100%;
+    padding: 0 30px;
+    color: var(--white);
+    background-color: var(--rz-background-color-primary);
+    display: flex;
+    align-items: center;
+}

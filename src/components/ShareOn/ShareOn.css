@@ -1,0 +1,31 @@
+.shareOn{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.shareOn h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+.social__medial{
+    display: flex;
+    align-items: center;
+    gap: 0 9px;
+}
+.social__medial .MuiSvgIcon-root{
+    font-size: 35px;
+}
+.social__medial .facebook a{
+    background: #39599E;
+    background-color: #39599E;
+    display: block;
+    color: var(--white);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
